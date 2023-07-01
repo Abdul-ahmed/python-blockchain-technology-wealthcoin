@@ -4,15 +4,15 @@
 
 ## Blockchain
 
-Blockchain technology is a decentralized and distributed ledger technology that allows multiple parties to record and verify transactions in a secure and transparent manner. It is a type of digital ledger that stores data across a network of computers (nodes) rather than on a central server.
+Blockchain technology is a decentralized and distributed ledger technology that allows multiple parties to record and verify transactions securely and transparently. It is a type of digital ledger that stores data across a network of computers (nodes) rather than on a central server.
 
-At its core, a blockchain is a chain of blocks, where each block contains a list of transactions. These transactions are grouped together, verified, and added to the chain in a sequential manner. Each block is linked to the previous block through a cryptographic hash, creating an immutable and tamper-resistant record of transactions.
+At its core, a blockchain is a chain of blocks, where each block contains a list of transactions. These transactions are grouped, verified, and sequentially added to the chain. Each block is linked to the previous block through a cryptographic hash, creating an immutable and tamper-resistant record of transactions.
 
 The key characteristics of blockchain technology include:
 
 1.  Decentralization: Instead of relying on a central authority, blockchain distributes the transaction verification process among multiple nodes in a network. This decentralization ensures that no single entity has control over the entire system.
     
-2.  Transparency: All participants in a blockchain network have access to the same information. Transactions are recorded in a transparent and visible manner, promoting trust and accountability.
+2.  Transparency: All participants in a blockchain network have access to the same information. Transactions are recorded transparently and visibly, promoting trust and accountability.
     
 3.  Security: Blockchain uses cryptographic algorithms to secure transactions and data. Once a transaction is added to the blockchain, it becomes extremely difficult to alter or tamper with. This makes blockchain highly secure against fraud and unauthorized changes.
     
@@ -23,7 +23,7 @@ The key characteristics of blockchain technology include:
 
 Blockchain technology has gained significant attention due to its association with cryptocurrencies like Bitcoin. However, its potential applications go beyond digital currencies. Blockchain can be used in various industries, such as finance, supply chain management, healthcare, voting systems, intellectual property protection, and more, to create secure, transparent, and efficient systems for record-keeping, transactions, and information sharing.
 
-It's worth noting that there are different types of blockchains, including public blockchains (accessible to anyone), private blockchains (restricted to specific entities), and consortium blockchains (shared among a group of organizations). Each type has its own use cases and considerations. [Source: ChatGPT]
+It's worth noting that there are different types of blockchains, including public blockchains (accessible to anyone), private blockchains (restricted to specific entities), and consortium blockchains (shared among a group of organizations). Each type has its use cases and considerations. [Source: ChatGPT]
 
 ## Block or Blocks
 A block is a fundamental component of a blockchain. It serves as a container that holds a collection of transactions and other relevant data. Each block contains a unique identifier called a cryptographic hash, which is generated based on the data within the block.
@@ -75,7 +75,7 @@ Some key features of Python include:
     
 2.  Interpreted Language: Python is an interpreted language, which means that the code is executed line by line without the need for explicit compilation. This makes Python highly interactive and suitable for scripting and rapid prototyping.
     
-3.  Object-Oriented Programming (OOP): Python supports object-oriented programming principles, allowing developers to create classes, objects, and inherit and reuse code through concepts like encapsulation, inheritance, and polymorphism.
+3.  Object-Oriented Programming (OOP): Python supports object-oriented programming principles, allowing developers to create classes, and objects, and inherit and reuse code through concepts like encapsulation, inheritance, and polymorphism.
     
 4.  Large Standard Library: Python comes with a comprehensive standard library that provides a wide range of modules and functions for various purposes. These modules allow developers to perform tasks like file handling, networking, database access, web development, and more without needing external dependencies.
     
@@ -95,11 +95,11 @@ Python has a wide range of use cases due to its versatility and extensive ecosys
     
 2.  Data Analysis and Visualization: Python has become the go-to language for data analysis and visualization. Libraries like NumPy, Pandas, and SciPy offer powerful tools for data manipulation, analysis, and scientific computing. Matplotlib, Seaborn, and Plotly provide options for creating visually appealing plots and charts.
     
-3.  Machine Learning and Artificial Intelligence: Python is heavily used in the field of machine learning and artificial intelligence. Libraries like scikit-learn, TensorFlow, and PyTorch provide efficient tools for building and training machine learning models. Python's simplicity and the availability of extensive machine learning libraries make it a popular choice for researchers and practitioners in this field.
+3.  Machine Learning and Artificial Intelligence: Python is heavily used in the field of machine learning and artificial intelligence. Libraries like Scikit-learn, TensorFlow, and PyTorch provide efficient tools for building and training machine learning models. Python's simplicity and the availability of extensive machine-learning libraries make it a popular choice for researchers and practitioners in this field.
     
 4.  Scripting and Automation: Python's concise and readable syntax makes it an excellent choice for scripting and automation tasks. Whether it's automating repetitive tasks, writing system administration scripts, or creating small utilities, Python provides the necessary tools and libraries to streamline these processes.
     
-5.  Scientific Computing and Computational Research: Python's extensive scientific computing libraries, such as NumPy, SciPy, and SymPy, make it a popular choice for researchers and scientists. Python's ease of use and interactive nature make it suitable for prototyping, experimenting, and conducting computational research in various scientific domains.
+5.  Scientific Computing and Computational Research: Python's extensive scientific computing libraries, such as NumPy, SciPy, and SymPy, make it a popular choice for researchers and scientists. Python's ease of use and interactive nature makes it suitable for prototyping, experimenting, and conducting computational research in various scientific domains.
     
 6.  Game Development: Python has frameworks like Pygame that allow developers to create 2D games. Its simplicity and ease of use make it an attractive choice for beginners in game development.
     
@@ -117,7 +117,7 @@ Python is widely used in blockchain technology and has several use cases within 
     
 2.  Blockchain Development Frameworks: Python frameworks like Web3.py and Pyethereum provide developers with tools and APIs to interact with blockchain networks, deploy smart contracts, and build decentralized applications (DApps). These frameworks simplify the process of integrating Python applications with blockchain networks.
     
-3.  Blockchain Analytics and Data Science: Python's rich ecosystem of data analysis and machine learning libraries can be utilized for blockchain analytics. Python libraries like Pandas, NumPy, and scikit-learn are used for processing and analyzing blockchain data, extracting insights, and building predictive models.
+3.  Blockchain Analytics and Data Science: Python's rich ecosystem of data analysis and machine learning libraries can be utilized for blockchain analytics. Python libraries like Pandas, NumPy, and sci-kit-learn are used for processing and analyzing blockchain data, extracting insights, and building predictive models.
     
 4.  Blockchain Prototyping and Testing: Python's simplicity and rapid development capabilities make it suitable for prototyping and testing blockchain concepts. Python can be used to create proof-of-concept blockchain implementations, simulate network behavior, and test various blockchain-related algorithms and protocols.
     
@@ -127,9 +127,11 @@ Python is widely used in blockchain technology and has several use cases within 
 It's important to note that while Python is widely used in blockchain development, it is not the only programming language used in the blockchain space. Other languages like Solidity, Go, C++, and Rust are also commonly used depending on the blockchain platform and project requirements.
 
 ## Conclusion
-This project is a small project assessment with a knowledge testing capability on blockchain understanding. The project consist of technology like Python programming language, Flask (python framework) and Solidity
-- Python is the language use to build the core blockchain
+This project is a small project assessment with a knowledge testing capability on blockchain understanding. The project consists of technology like Python programming language, Flask (python framework), and Solidity
+- Python is the language used to build the core blockchain
 - Flask is used to provide APIs for external communication to the blockchain
-- Solidity is used for writing Smart Contract that create a token as an exchange and investment on the ICO - Innitial Coin Offering.
+- Solidity is used for writing Smart Contract that creates a token as an exchange and investment on the ICO - Initial Coin Offering.
 
-### Thanks
+Thanks.
+Abdulahmed Olayiwola Abdulhakeem
+https://www.linkedin.com/in/abdulahmed-abdulhakeem-105b24100/
