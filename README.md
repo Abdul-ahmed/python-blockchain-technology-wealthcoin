@@ -1,3 +1,4 @@
+
 <p></p>
 <h1 align="center">Blockchain Technology</h1>
 <h2 align="center">Blockchain Prototype using Python Programming Language</h1>
@@ -43,7 +44,7 @@ When a new block is added to the blockchain, it undergoes a verification process
 
 Once a block is added to the blockchain, it becomes a permanent part of the ledger. Modifying or tampering with the data within a block is extremely difficult due to the cryptographic hashing and the distributed nature of the blockchain network.
 
-The chaining of blocks together forms a continuous and sequential record of transactions, creating the blockchain. As new blocks are added to the chain, the blockchain grows, providing a historical and transparent record of all the transactions and activities that have occurred on the network.
+The chaining of blocks together forms a continuous and sequential record of transactions, creating the blockchain. As new blocks are added to the chain, the blockchain grows, providing a historical and transparent record of all the transactions and activities that have occurred on the network. [Source: ChatGPT]
 
 ## Cryptographic Hash
 A cryptographic hash function is a mathematical algorithm that takes an input (data of any size) and produces a fixed-size string of characters, which is the hash value or hash output. The key properties of a cryptographic hash function are:
@@ -62,7 +63,7 @@ In the context of blockchain, cryptographic hash functions play a crucial role i
 3.  Proof of Work (PoW): In certain blockchain networks that use PoW as their consensus mechanism, miners compete to solve a complex mathematical puzzle. The solution to this puzzle involves finding a nonce (a random number) that, when combined with the block's data, produces a hash value that meets specific criteria (e.g., a certain number of leading zeros). The hashing process in PoW provides a mechanism to secure the network and ensures that miners have invested computational effort to validate and add blocks to the blockchain.
     
 
-By leveraging cryptographic hash functions, blockchain technology achieves data integrity, immutability, and consensus in a decentralized manner. The use of hash functions ensures that the blockchain remains tamper-resistant and trustworthy, enabling secure and transparent transactions within the network.
+By leveraging cryptographic hash functions, blockchain technology achieves data integrity, immutability, and consensus in a decentralized manner. The use of hash functions ensures that the blockchain remains tamper-resistant and trustworthy, enabling secure and transparent transactions within the network. [Source: ChatGPT]
 
 
 ## Python
@@ -86,7 +87,7 @@ Some key features of Python include:
 
 Python is widely used in various domains, including web development, scientific computing, data analysis, artificial intelligence, machine learning, automation, scripting, and system administration. Its versatility, ease of use, and extensive ecosystem make it a popular choice among developers of all skill levels.
 
-To write and run Python code, you need a Python interpreter installed on your system. Python provides an official interpreter called CPython, and there are also alternative implementations like PyPy and Jython. Integrated Development Environments (IDEs) such as PyCharm, Visual Studio Code, and IDLE provide additional features for coding, debugging, and managing Python projects.
+To write and run Python code, you need a Python interpreter installed on your system. Python provides an official interpreter called CPython, and there are also alternative implementations like PyPy and Jython. Integrated Development Environments (IDEs) such as PyCharm, Visual Studio Code, and IDLE provide additional features for coding, debugging, and managing Python projects. [Source: ChatGPT]
 
 ## Python Use Case
 Python has a wide range of use cases due to its versatility and extensive ecosystem of libraries and frameworks. Here are some prominent use cases for Python:
@@ -108,7 +109,7 @@ Python has a wide range of use cases due to its versatility and extensive ecosys
 8.  Desktop GUI Applications: Python's GUI frameworks like Tkinter, PyQt, and wxPython enable developers to create cross-platform desktop applications with rich graphical user interfaces (GUI).
     
 
-These are just a few examples of Python's use cases, but the language's flexibility and extensive library support make it applicable in many other areas such as finance, data mining, natural language processing, automation testing, and more.
+These are just a few examples of Python's use cases, but the language's flexibility and extensive library support make it applicable in many other areas such as finance, data mining, natural language processing, automation testing, and more. [Source: ChatGPT]
 
 ## Application of Python on Blockchain
 Python is widely used in blockchain technology and has several use cases within the blockchain ecosystem. Here are some ways Python is utilized in blockchain development:
@@ -124,14 +125,18 @@ Python is widely used in blockchain technology and has several use cases within 
 5.  Blockchain APIs and Web Development: Python can be used to build APIs and web interfaces for interacting with blockchain networks. Python frameworks like Flask and Django are commonly used to create RESTful APIs and web applications that interact with blockchain networks, retrieve data, and provide user interfaces for blockchain-based systems.
     
 
-It's important to note that while Python is widely used in blockchain development, it is not the only programming language used in the blockchain space. Other languages like Solidity, Go, C++, and Rust are also commonly used depending on the blockchain platform and project requirements.
+It's important to note that while Python is widely used in blockchain development, it is not the only programming language used in the blockchain space. Other languages like Solidity, Go, C++, and Rust are also commonly used depending on the blockchain platform and project requirements. [Source: ChatGPT]
 
 ## Conclusion
-This project is a small project assessment with a knowledge testing capability on blockchain understanding. The project consists of technology like Python programming language, Flask (python framework), and Solidity
+This project is a small project assessment with a knowledge testing capability on blockchain understanding. The project consists of technology like Python programming language, Flask (python framework), and Solidity.
 - Python is the language used to build the core blockchain
 - Flask is used to provide APIs for external communication to the blockchain
 - Solidity is used for writing Smart Contract that creates a token as an exchange and investment on the ICO - Initial Coin Offering.
 
+
+
 Thanks.
-Abdulahmed Olayiwola Abdulhakeem
+
+Abdulahmed Olayiwola Abdulhakeem (Software Engineer)
+
 https://www.linkedin.com/in/abdulahmed-abdulhakeem-105b24100/
